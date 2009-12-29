@@ -32,6 +32,7 @@ import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.Task;
 import se.singbox.scanner.FileScanner;
 import se.singbox.scanner.FolderScanner;
+import se.singbox.scanner.LocaleKeyChecker;
 
 import java.io.File;
 import java.util.Collection;
