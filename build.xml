@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="FlexAntL10N" basedir="." default="all">
+  <property name="build.dir" value="build"/>
+  <property name="bin.dir" value="bin"/>
+  <property name="lib.dir" value="lib"/>
+  <property name="source.dir" value="src"/>
+  <property name="classes.dir" value="${build.dir}/classes"/>
+
+  <target name="all">
+    <antcall target="clean"/>
+    <antcall target="init"/>
+    <antcall target="compile"/>
+    <antcall target="build-jar"/>
+    <antcall target="copy-jars"/>
+    <antcall target="docs"/>
+    <antcall target="clean"/>
+  </target>
+
+  <target name="clean" description="Delete all generated files">
+    <delete dir="${build.dir}" failonerror="false"/>
+  </target>
+
+  <target name="init" description="Create output directories for build">
+    <mkdir dir="${build.dir}"/>
+    <mkdir dir="${classes.dir}"/>
+  </target>
+
+  <target name="compile" depends="init" description="Compile sources">
+    <path id="compile.classpath">
+      <fileset dir="${lib.dir}">
+        <include name="*.jar"/>
+        <include name="**/*.jar"/>
+      </fileset>
+    </path>
+    <javac debug="true" destdir="${classes.dir}">
+      <classpath refid="compile.classpath"/>
+      <src path="${source.dir}"/>
+    </javac>
+  </target>
+
+  <target name="build-jar" depends="compile" description="Generate ant JAR file">
+    <jar destfile="${build.dir}/${ant.project.name}.jar" basedir="${classes.dir}"/>
+  </target>
+
+  <target name="copy-jars">
+    <copy file="${build.dir}/${ant.project.name}.jar" todir="${bin.dir}"/>
+    <copy file="${lib.dir}/poi-3.2-FINAL-20081019.jar" todir="${bin.dir}"/>
+  </target>
+
+  <target name="docs" description="Generate project documentation">
+    <javadoc sourcepath="${source.dir}" destdir="${build.dir}/docs" classpathref="compile.classpath"/>
+  </target>
+</project>

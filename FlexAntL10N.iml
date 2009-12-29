@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Project Libraries">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-jai.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/xercesImpl.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/catalina-ant.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/xml-apis.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-starteam.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/commons-net-ftp-2.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-jmf.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-testutil.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-apache-oro.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-antlr.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-netrexx.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-trax.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-junit.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-apache-regexp.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-nodeps.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-jdepend.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-javamail.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-apache-bcel.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-commons-net.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-stylebook.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-apache-resolver.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-apache-log4j.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-apache-bsf.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/maven-ant-tasks-2.0.9.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-launcher.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-contrib-1.0b3.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-jsch.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-swing.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-weblogic.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/ant/ant-commons-logging.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/poi-3.2-FINAL-20081019.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <additionalClassPath />
+      <antReference projectDefault="true" />
+      <customJdkName value="" />
+      <maximumHeapSize value="128" />
+      <maximumStackSize value="32" />
+      <properties />
+    </buildFile>
+  </component>
+  <component name="BuildJarProjectSettings">
+    <option name="BUILD_JARS_ON_MAKE" value="false" />
+  </component>
+  <component name="CodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS">
+      <value>
+        <ADDITIONAL_INDENT_OPTIONS fileType="java">
+          <option name="INDENT_SIZE" value="4" />
+          <option name="CONTINUATION_INDENT_SIZE" value="8" />
+          <option name="TAB_SIZE" value="4" />
+          <option name="USE_TAB_CHARACTER" value="false" />
+          <option name="SMART_TABS" value="false" />
+          <option name="LABEL_INDENT_SIZE" value="0" />
+          <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+        </ADDITIONAL_INDENT_OPTIONS>
+        <ADDITIONAL_INDENT_OPTIONS fileType="jsp">
+          <option name="INDENT_SIZE" value="4" />
+          <option name="CONTINUATION_INDENT_SIZE" value="8" />
+          <option name="TAB_SIZE" value="4" />
+          <option name="USE_TAB_CHARACTER" value="false" />
+          <option name="SMART_TABS" value="false" />
+          <option name="LABEL_INDENT_SIZE" value="0" />
+          <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+        </ADDITIONAL_INDENT_OPTIONS>
+        <ADDITIONAL_INDENT_OPTIONS fileType="xml">
+          <option name="INDENT_SIZE" value="4" />
+          <option name="CONTINUATION_INDENT_SIZE" value="8" />
+          <option name="TAB_SIZE" value="4" />
+          <option name="USE_TAB_CHARACTER" value="false" />
+          <option name="SMART_TABS" value="false" />
+          <option name="LABEL_INDENT_SIZE" value="0" />
+          <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+        </ADDITIONAL_INDENT_OPTIONS>
+      </value>
+    </option>
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions>
+      <entry name=".+\.(properties|xml|html|dtd|tld)" />
+      <entry name=".+\.(gif|png|jpeg|jpg)" />
+    </resourceExtensions>
+    <wildcardResourcePatterns>
+      <entry name="?*.properties" />
+      <entry name="?*.xml" />
+      <entry name="?*.gif" />
+      <entry name="?*.png" />
+      <entry name="?*.jpeg" />
+      <entry name="?*.jpg" />
+      <entry name="?*.html" />
+      <entry name="?*.dtd" />
+      <entry name="?*.tld" />
+      <entry name="?*.ftl" />
+    </wildcardResourcePatterns>
+    <annotationProcessing enabled="false" useClasspath="true" />
+  </component>
+  <component name="CopyrightManager" default="Singbox OSS">
+    <copyright>
+      <option name="notice" value="Copyright (c) &amp;#36;today.year Singbox AB.  All rights reserved.&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are&#10;permitted provided that the following conditions are met:&#10;&#10;   1. Redistributions of source code must retain the above copyright notice, this list of&#10;      conditions and the following disclaimer.&#10;&#10;   2. Redistributions in binary form must reproduce the above copyright notice, this list&#10;      of conditions and the following disclaimer in the documentation and/or other materials&#10;      provided with the distribution.&#10;&#10;THIS SOFTWARE IS PROVIDED BY SINGBOX AB &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED&#10;WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND&#10;FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL SINGBOX AB OR&#10;CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR&#10;CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR&#10;SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON&#10;ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING&#10;NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF&#10;ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;The views and conclusions contained in the software and documentation are those of the&#10;authors and should not be interpreted as representing official policies, either expressed&#10;or implied, of Singbox AB." />
+      <option name="keyword" value="Copyright" />
+      <option name="allowReplaceKeyword" value="" />
+      <option name="myName" value="Singbox OSS" />
+      <option name="myLocal" value="true" />
+    </copyright>
+    <module2copyright>
+      <element module="All" copyright="Singbox OSS" />
+    </module2copyright>
+  </component>
+  <component name="CppTools.Loader" reportImplicitCastToBool="false" version="2" compilerSelect="AUTO" />
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="EclipseCompilerSettings">
+    <option name="GENERATE_NO_WARNINGS" value="true" />
+    <option name="DEPRECATION" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+  </component>
+  <component name="ProjectDetails">
+    <option name="projectName" value="FlexAntL10N" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlexAntL10N.iml" filepath="$PROJECT_DIR$/FlexAntL10N.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchMap">
+                <map>
+                  <entry key="http://svn.ugenix.se:80/svn/ugenix/branches">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1234641858708" />
+                          <option name="revision" value="3796" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/branches/SingBoxFlex-OLD" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1234368964458" />
+                          <option name="revision" value="3749" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/branches/SingBoxFlex-vd" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://svn.ugenix.se:80/svn/ugenix/dists">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1251122822258" />
+                          <option name="revision" value="6005" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/SingBoxServer-Devel" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1251105438648" />
+                          <option name="revision" value="5994" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/SingBox-Local" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1251103046642" />
+                          <option name="revision" value="5991" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/SingBox-Devel" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1250770007578" />
+                          <option name="revision" value="5947" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/RingBox-Local" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1250693523352" />
+                          <option name="revision" value="5942" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/SingBox-Demo" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1250673499414" />
+                          <option name="revision" value="5937" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/SingBoxServer-Demo" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1250610426198" />
+                          <option name="revision" value="5931" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/AdminBox-Devel" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1250507672242" />
+                          <option name="revision" value="5915" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/SingBox-Arto" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1250499232851" />
+                          <option name="revision" value="5908" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/SingBoxServer-Arto" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1249566374758" />
+                          <option name="revision" value="5812" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/AdminBox-Arto" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1248164483937" />
+                          <option name="revision" value="5531" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/RingBox-Devel" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246892136684" />
+                          <option name="revision" value="5278" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/RingBox-Demo" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246021331110" />
+                          <option name="revision" value="5168" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/RingBox-Arto" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1242671566008" />
+                          <option name="revision" value="4852" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/RingBoxServer-Demo" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1242657517075" />
+                          <option name="revision" value="4849" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/SingBox-MD" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1242647525451" />
+                          <option name="revision" value="4834" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/SingBoxServer-MD" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1242127399739" />
+                          <option name="revision" value="4774" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/RingBoxServer-MB" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1242127278677" />
+                          <option name="revision" value="4773" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/RingBox-MB" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1241006059217" />
+                          <option name="revision" value="4674" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/SingBoxServer-Installer" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1239959712060" />
+                          <option name="revision" value="4571" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/RingBox-AB" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1239784147029" />
+                          <option name="revision" value="4533" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/dists/RingBoxServer-AB" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://svn.ugenix.se:80/svn/ugenix/docs">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1251018120586" />
+                          <option name="revision" value="5987" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/docs/Passwords" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1242207635279" />
+                          <option name="revision" value="4787" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/docs/CodingStandard" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1234125712835" />
+                          <option name="revision" value="3641" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/docs/SingBox" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://svn.ugenix.se:80/svn/ugenix/media">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1241000084999" />
+                          <option name="revision" value="4663" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/media/EffectChains" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1240837880067" />
+                          <option name="revision" value="4644" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/media/VstPlugins" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1237893816191" />
+                          <option name="revision" value="4286" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/media/SingBoxTestSongs" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1236951537667" />
+                          <option name="revision" value="4190" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/media/Ringtones" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1231352166675" />
+                          <option name="revision" value="3135" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/media/SoundFiles" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1229948216208" />
+                          <option name="revision" value="3086" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/media/MidiFiles" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="http://svn.ugenix.se:80/svn/ugenix/tags">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1250598745133" />
+                          <option name="revision" value="5930" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/tags/ConnectionTester" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1250598745133" />
+                          <option name="revision" value="5930" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/tags/ContentChecker" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1250506084664" />
+                          <option name="revision" value="5912" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/tags/SingBoxFlex" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1250499135007" />
+                          <option name="revision" value="5907" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/tags/SingBoxServer" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1249566300414" />
+                          <option name="revision" value="5811" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/tags/AdminBox" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1246285283855" />
+                          <option name="revision" value="5180" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/tags/RingBoxFlex" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1243945677953" />
+                          <option name="revision" value="4991" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/tags/CheckL10N" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1243429117546" />
+                          <option name="revision" value="4963" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/tags/MediaServer" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1242647723638" />
+                          <option name="revision" value="4836" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/tags/MissWatson" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1234867895096" />
+                          <option name="revision" value="3839" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/tags/PitchDetect" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1231949577407" />
+                          <option name="revision" value="3174" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/tags/MidiToFreq" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1224141265236" />
+                          <option name="revision" value="2542" />
+                          <option name="url" value="http://svn.ugenix.se:80/svn/ugenix/tags/SingBoxLoadTester" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="branchUrls">
+                <list>
+                  <option value="http://svn.ugenix.se:80/svn/ugenix/branches" />
+                  <option value="http://svn.ugenix.se:80/svn/ugenix/dists" />
+                  <option value="http://svn.ugenix.se:80/svn/ugenix/docs" />
+                  <option value="http://svn.ugenix.se:80/svn/ugenix/media" />
+                  <option value="http://svn.ugenix.se:80/svn/ugenix/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="http://svn.ugenix.se:80/svn/ugenix/trunk" />
+              <option name="userinfoInUrl" value="true" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="svn" />
+  </component>
+</project>
+
