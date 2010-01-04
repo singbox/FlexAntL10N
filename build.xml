@@ -11,7 +11,6 @@
     <antcall target="compile"/>
     <antcall target="build-jar"/>
     <antcall target="docs"/>
-    <antcall target="clean"/>
   </target>
 
   <target name="clean" description="Delete all generated files">
