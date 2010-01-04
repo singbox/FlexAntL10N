@@ -45,7 +45,7 @@ public class FolderScanner {
   public Collection<File> scanFolder(String folderName, String extension) {
     final Collection<File> allFiles = new ArrayList<File>();
     addFilesRecursively(new File(folderName), allFiles, extension);
-    System.out.println(folderName + ": found " + allFiles.size() + " files");
+//    System.out.println(folderName + ": found " + allFiles.size() + " files");
     return allFiles;
   }
 

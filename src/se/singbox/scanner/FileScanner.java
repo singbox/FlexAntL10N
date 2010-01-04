@@ -76,7 +76,7 @@ public class FileScanner {
       }
     }
 
-    System.out.println(inputFile.getName() + ": " + numKeysFound + " keys found");
+//    System.out.println(inputFile.getName() + ": " + numKeysFound + " keys found");
     dataStream.close();
     return outputKeys;
   }

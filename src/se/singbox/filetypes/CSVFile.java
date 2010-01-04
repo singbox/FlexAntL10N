@@ -51,10 +51,12 @@ public class CSVFile implements LocaleSourceFile {
 
     while((fileLine = fileReader.readLine()) != null) {
       List<String> parsedFields = parseCSVFields(fileLine);
+      /*
       for(String f : parsedFields) {
         System.out.print("FOUND '" + f + "'");
       }
       System.out.println("  ");
+      */
       LocaleStringSet stringMap = new LocaleStringSet();
       for(int i = 1; i < parsedFields.size(); i++) {
         //System.out.println("KEY: '" + parsedFields.get(0) + "', VALUE: '" + parsedFields.get(i) + "'");
